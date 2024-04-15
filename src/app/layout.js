@@ -1,5 +1,4 @@
 
-// import { Micro_5 } from "./ui/fonts";
 import "./globals.css";
 
 
