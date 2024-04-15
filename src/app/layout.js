@@ -1,5 +1,5 @@
 
-import { Micro_5 } from "./ui/fonts";
+// import { Micro_5 } from "./ui/fonts";
 import "./globals.css";
 
 
@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={Micro_5.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
