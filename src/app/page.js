@@ -1,13 +1,15 @@
 import Image from "next/image";
-import styles from '@/app/ui/home.module.css';
+import "./ui/bento.css";
+import BentoBox from "./components/bentoBox";
 
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="text-blue-200">Hello World!</h1>
+    <>
+      <div className="section-2">
+        <BentoBox />
+      </div>
+    </>
 
-      <div className={styles.shape} />
-    </main >
   );
 }

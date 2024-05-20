@@ -1,6 +1,6 @@
 
 
-const projects = [
+export const projects = [
     {
         project_title: "My cool react project",
         location: "https://github.com/thebittles",
@@ -9,7 +9,7 @@ const projects = [
   ];
 
 
-  const socialLinks = [
+  export const socialLinks = [
     { 
         social: "Github",
         link: "https://github.com/thebittles",

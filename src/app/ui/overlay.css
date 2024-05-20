@@ -1,0 +1,35 @@
+
+
+/* .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0; Initially hidden */
+    /* transition: opacity 0.3s ease; Smooth transition */
+    /* border-radius: 1rem; */
+    /* z-index: 2; Ensure it appears above the background overlay */
+    /* background-color: rgba(0, 0, 0, 0.5); Semi-transparent background
+  } */
+  
+  .overlay {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.15) 40%, rgb(0, 0, 0) 99.043%, rgb(0, 255, 0) 100%); 
+    opacity: 0.8;
+    border-radius: 1rem;
+    align-items: center; /* Ensure the overlay content is centered */
+    justify-content: center; /* Ensure the overlay content is centered */
+    border: solid 1px #59ff00;
+  }
+  
+  .item:hover .overlay {
+    display: flex;
+  }
+
