@@ -1,5 +1,5 @@
-import { socialLinks, projects } from "../lib/data";
-import Overlay from "./Overlay";
+// import { socialLinks, projects } from "../lib/data";
+import Overlay from "./Overlay.js";
 
 
 const BentoBox = () => {
